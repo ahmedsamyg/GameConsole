@@ -80,21 +80,22 @@ It includes three games: **SimonSays**, **Snake**, and **Brick Breaker**, with i
 ## Project Structure
 ```plaintext
 .
-├── ├── Source/
+├──Raspberry Pi
+│  ├── Source/
 │	│	├──	main.cpp
-│   │	├── simon.cpp
-│   │	├── snake.cpp
-│   │	├── brick.cpp
-│   │	├── TFT.cpp
-│   │	├── UART.cpp
-│   ├── Headers/
+│  │	├── simon.cpp
+│  │	├── snake.cpp
+│  │	├── brick.cpp
+│  │	├── TFT.cpp
+│  │	├── UART.cpp
+│  ├── Headers/
 │	│	├── simon.h
 │	│	├── snake.h
 │	│	├── brick.h
 │	│	├── TFT.h
-│   │	├── UART.h
-│   │	├── config.h
-│   │	├── images.h
+│  │	├── UART.h
+│  │	├── config.h
+│  │	├── images.h
 ├── STM32F401/
 │   ├── Source/
 │   │   ├── _initialize_hardware.c
@@ -106,7 +107,6 @@ It includes three games: **SimonSays**, **Snake**, and **Brick Breaker**, with i
 │   │   ├── STK_program.c
 │   │   ├── stm32f4xx_hal_msp.c
 │   │   ├── USART_program.c
-│   │
 │   ├── Headers/
 │   │    ├── BIT_MATH.h
 │   │    ├── EXTI_config.h
@@ -117,19 +117,19 @@ It includes three games: **SimonSays**, **Snake**, and **Brick Breaker**, with i
 │   │    ├── GPIO_private.h
 │   │    ├── NVIC_config.h
 │   │    ├── NVIC_interface.h
-│	│    ├── NVIC_private.h
-│	│    ├── RCC_config.h
-│	│    ├── RCC_interface.h
-│	│    ├── RCC_private.h
-│	│    ├── Sound_Arrays.h
-│	│    ├── STD_TYPES.h
-│	│    ├── STK_config.h
-│	│    ├── STK_interface.h
-│	│    ├── STK_private.h
-│	│    ├── stm32f4xx_hal_conf.h
-│	│    ├── USART_config.h
-│	│    ├── USART_interface.h
-│	│    ├── USART_private.h  
+│	 │    ├── NVIC_private.h
+│	 │    ├── RCC_config.h
+│	 │    ├── RCC_private.h
+│	 │    ├── Sound_Arrays.h
+│	 │    ├── RCC_interface.h
+│	 │    ├── STD_TYPES.h
+│	 │    ├── STK_config.h
+│	 │    ├── STK_interface.h
+│	 │    ├── STK_private.h
+│	 │    ├── stm32f4xx_hal_conf.h
+│	 │    ├── USART_config.h
+│	 │    ├── USART_interface.h
+│	 │    ├── USART_private.h  
 ├── README.md
 ```
 
